@@ -1,0 +1,109 @@
+.wallBox1 {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0px;
+}
+
+.wallpara {
+    margin: auto;
+    font-size: 20px;
+    color: rgb(194, 193, 225);
+    line-height: 28px;
+    font-family: apercu-regular;
+    text-align: justify;
+}
+
+.Metamask {
+    height: 80px;
+    width: 350px;
+    min-width: none;
+    border-radius: 2px;
+    padding: 16px 48px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: left;
+    -moz-box-align: center;
+    align-items: center;
+    background-color: rgb(28, 26, 40);
+    border: 1px solid rgb(38, 36, 57);
+    box-shadow: rgba(18, 18, 43, 0.3) 0px 5px 10px 5px;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+}
+
+.wallButtons {
+    height: 80px;
+    width: 350px;
+    border-radius: 2px;
+    padding: 16px 48px;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: left;
+    -moz-box-align: center;
+    align-items: center;
+    background-color: rgb(28, 26, 40);
+    border: 1px solid rgb(38, 36, 57);
+    box-shadow: rgba(18, 18, 43, 0.3) 0px 5px 10px 5px;
+    opacity: 1;
+    cursor: pointer;
+    transition: all 0.1s ease 0s;
+}
+
+.allimg {
+    width: 40px;
+    height: 40px;
+    margin-right: 24px;
+}
+
+.ButtonTxt {
+    text-transform: capitalize;
+    margin: 0px;
+    font-size: 18px;
+    font-size: 24;
+    letter-spacing: 2;
+    font-family: 'apercu-medium';
+    color: white;
+    text-align: center;
+    align-content: center;
+    padding-left: 10%;
+}
+
+.BottomLinks {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 55%;
+}
+
+.Link {
+    background-color: rgb(28, 26, 40);
+    border: 1px solid rgb(38, 36, 57);
+    text-transform: uppercase;
+    font-size: 32px;
+    text-decoration: none;
+    width: 300px;
+    cursor: pointer;
+    height: 50px;
+    border-radius: 2px;
+    margin: 10px 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+
+.LinkTxt {
+    font-size: 12px;
+    font-weight: 500;
+    font-family: 'apercu-medium';
+    color: #C2C1E1;
+    letter-spacing: 0.6;
+    text-align: center;
+    align-content: center;
+}
